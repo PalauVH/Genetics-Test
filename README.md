@@ -1,22 +1,16 @@
-# Genetisch Algoritme
-Om mijn nieuwsgierigheid te stillen wilde ik kijken hoe ik een genetisch algoritme moest ontwikkelen.
-Met Javascript wordt een 2D grid gemaakt waarop een aantal 'organismen' worden gegenereerd.
-Al deze organismen hebben een willekeurig gegenereerde genoom. Dit genoom wordt gerepresenteerd als een binaire reeks, waarbij elke bit
-een gen voorsteld. Elk gen heeft een voorgeprogrammeerde functie die in de zogeheten fitness functie wordt nagelopen.
+# Genetisch Algoritme in JavaScript
+Dit project is ontstaan uit mijn nieuwsgierigheid naar genetische algoritmen. Het maakt gebruik van JavaScript om een 2D-raster te creëren waarop verschillende 'organismen' worden gegenereerd. Deze organismen bezitten een willekeurig gegenereerd genoom, bestaande uit een binaire reeks waarbij elke bit een gen vertegenwoordigt. Elk gen heeft een specifieke functie die wordt geëvalueerd in de fitnessfunctie.
 
-Organismen die het meeste stappen zetten - oftewel het meest van positie veranderen - in één gehele generatie worden gezien als het meest 'fit'.
-De eigenschappen die de organismen kunnen hebben zijn bijvoorbeeld: 
-  - De mogelijkheid om een bepaalde richting op te kunnen verplaatsen
-  - De mogelijkheid om of verticaal en/of horizontaal te verplaatsen
-  - Een vergrootte kans om te bewegen
-  - Extra- en introversie die onder zijn verdeeld in de volgende eigenschappen:
+De organismen die de meeste stappen zetten (van positie veranderen) binnen een generatie worden beschouwd als het meest 'fit'. Enkele mogelijke eigenschappen van de organismen zijn:
+  - Het vermogen om in een specifieke richting te bewegen
+  - Het vermogen om zich zowel verticaal als horizontaal te verplaatsen
+  - Een verhoogde kans om te bewegen
+  - Extraversie en introversie, onderverdeeld in de volgende kenmerken:
       :Extraversie:
-        - Een vergrootte kans om in de richting van de meest dichtsbijzijnde buurorganisme te verplaatsen
-        - Bij extreme extraversie een vergrootte kans om in de richting van de gemiddelde plaats van de gehele organismengroep te verplaatsen
+        - Een verhoogde kans om zich te verplaatsen in de richting van het dichtstbijzijnde buurorganisme
+        - Bij extreme extraversie, een verhoogde kans om zich te verplaatsen in de richting van de gemiddelde positie van de hele groep organismen
       :Introversie:
-        - Een vergrootte kans om in de tegengestelde richting van de meest dichtsbijzijnde buurorganisme te verplaatsen
-        - Bij extreme introversie een vergrootte kans om in de tegengestelde richting van de gemiddelde plaats van de gehele organismengroep te verplaatsen
-        
- Bij elke generatie zullen de meeste fitte organismen geselecteerd worden en gerecombineerd worden.
- 
-      
+        - Een verhoogde kans om zich te verplaatsen in de tegenovergestelde richting van het dichtstbijzijnde buurorganisme
+        - Bij extreme introversie, een verhoogde kans om zich te verplaatsen in de tegenovergestelde richting van de gemiddelde positie van de hele groep organismen
+
+In elke generatie worden de meest fitte organismen geselecteerd en vervolgens gerecombineerd.
