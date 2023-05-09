@@ -14,3 +14,21 @@ De organismen die de meeste stappen zetten (van positie veranderen) binnen een g
         - Bij extreme introversie, een verhoogde kans om zich te verplaatsen in de tegenovergestelde richting van de gemiddelde positie van de hele groep organismen
 
 In elke generatie worden de meest fitte organismen geselecteerd en vervolgens gerecombineerd.
+
+
+# Genetic Algorithm in JavaScript
+This project was born out of my curiosity about genetic algorithms. It uses JavaScript to create a 2D grid on which different "organisms" are generated. These organisms possess a randomly generated genome, consisting of a binary sequence where each bit represents a gene. Each gene has a specific function that is evaluated in the fitness function.
+
+The organisms that make the most steps (change position) within a generation are considered the most "fit. Some possible properties of the organisms are:
+  - The ability to move in a specific direction
+  - The ability to move both vertically and horizontally
+  - An increased ability to move
+  - Extraversion and introversion, divided into the following traits:
+      :Extraversion:
+        - An increased probability of moving in the direction of the nearest neighboring organism
+        - In extreme extraversion, an increased probability of moving toward the average position of the entire group of organisms
+      :Introversion:
+        - An increased probability of moving in the opposite direction of the nearest neighbor organism
+        - At extreme introversion, an increased probability of moving in the opposite direction to the average position of the whole group of organisms
+
+In each generation, the fittest organisms are selected and then recombined.
