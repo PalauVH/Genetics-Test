@@ -1,7 +1,7 @@
 # Genetisch Algoritme
 Om mijn nieuwsgierigheid te stillen wilde ik kijken hoe ik een genetisch algoritme moest ontwikkelen.
 Met Javascript wordt een 2D grid gemaakt waarop een aantal 'organismen' worden gegenereerd.
-Al deze organismen hebben een willekeurig gegenereerde genoom. Dit genoom wordt gerepresenteerd als een binaire reeks, waarbij elk karakter
+Al deze organismen hebben een willekeurig gegenereerde genoom. Dit genoom wordt gerepresenteerd als een binaire reeks, waarbij elke bit
 een gen voorsteld. Elk gen heeft een voorgeprogrammeerde functie die in de zogeheten fitness functie wordt nagelopen.
 
 Organismen die het meeste stappen zetten - oftewel het meest van positie veranderen - in één gehele generatie worden gezien als het meest 'fit'.
